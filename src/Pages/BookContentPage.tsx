@@ -169,7 +169,7 @@ export const BookContentPage = () => {
           },
         },
       });
-      location.reload();
+      getBookById();
       return dataBuyBook;
     } catch (e) {
       console.log(e);
@@ -194,7 +194,7 @@ export const BookContentPage = () => {
           },
         },
       });
-      location.reload();
+      getBookById();
       return dataBuyBook;
     } catch (e) {
       console.log(e);

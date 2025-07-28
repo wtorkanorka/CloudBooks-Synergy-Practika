@@ -24,7 +24,7 @@ export const FavouriteBookContainer = ({
       setData(
         data && data.data && data.data.data[0] && data.data.data[0].books_id
           ? data?.data.data[0].books_id
-          : location.reload()
+          : []
       );
       return data;
     } catch (e) {
