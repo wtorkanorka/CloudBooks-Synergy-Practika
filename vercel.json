@@ -33,7 +33,7 @@
     }
   ],
   "env": {
-    "SUPABASE_URL": "@SUPABASE_URL",
-    "SUPABASE_ANON_KEY": "@SUPABASE_ANON_KEY"
+    "SUPABASE_URL": "@supabase_url",
+    "SUPABASE_ANON_KEY": "@supabase_anon_key"
   }
 }
