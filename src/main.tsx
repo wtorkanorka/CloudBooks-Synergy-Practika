@@ -19,7 +19,7 @@ function AuthProvider({ children }: { children: React.ReactNode }) {
   axios.defaults.baseURL =
     process.env.NODE_ENV === "development"
       ? "http://localhost:5000" // Для разработки
-      : "https://blog-synergy.vercel.app"; // Для продакшена
+      : "https://cloud-books-synergy-practika.vercel.app"; // Для продакшена
 
   useEffect(() => {
     const checkAuth = async () => {
